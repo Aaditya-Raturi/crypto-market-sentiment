@@ -3,10 +3,10 @@ import requests
 import pandas as pd
 
 # Replace with your Twitter API keys
-consumer_key = 'YOUR_API_KEY'
-consumer_secret = 'YOUR_API_SECRET_KEY'
-access_token = 'YOUR_ACCESS_TOKEN'
-access_token_secret = 'YOUR_ACCESS_TOKEN_SECRET'
+consumer_key = 'Jpez4kpy2dzQv7EF4vjhMkxrb'
+consumer_secret = '2qCK25vTgLZLCBlIgU4Zsb27J26b1inCVZ017eLXXmSDLEcPcH'
+access_token = '1308778544366006273-NmTK2TrrcoWlorwQaCLVck2h8RZSkI'
+access_token_secret = 'PSc1QdpYD0W23mZtJsiANXmQe60gmrxI4JbyDBxEbmr0H'
 
 # Set up the Twitter API client using Tweepy
 auth = tweepy.OAuth1UserHandler(consumer_key, consumer_secret, access_token, access_token_secret)
